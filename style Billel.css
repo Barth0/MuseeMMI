@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@200;300;400;600&display=swap');
+/* *{
+    border: 1px solid red;
+} */
+
+
+body {
+    margin: 0 60px;
+    background-color: #FDF9F9;
+    overflow-x: hidden;
+    font-family: "Inter",'Dm Serif Display' ;
+}
+
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+/***************************************** HEADER *************************************************************/
+header{
+    display: flex;
+    position:absolute;    
+}
+
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.navbar ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+.link{
+    text-align: center;
+    margin: 0px 20px;
+}
+
+.link_nav{
+    
+    color: #FDF9F9;
+    text-decoration: none;
+}
+
+
+/* ************************************* BODY ****************************************************************** */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* **************************************FOOTER************************************************ */
+footer {
+    background-color: #1F1A1A;
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 200px;
+}
+.logo_musee_footer {
+    margin-left: 60px;
+    margin-right: 48px;
+}
+
+.time {
+    margin-right: 65px;
+    padding-left: 81px;
+    border-left: 8px solid #FDF9F9;
+}
+footer h4 {
+    color: #FDF9F9;    
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+footer p {
+    max-width: 219px;
+    margin-top: 29px;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.adress {
+    margin-right: 60px;
+}
+
+.contact img {
+    padding-top: 29px;
+    padding-right: 20px;
+}
+
+footer nav {
+    display: flex;
+    flex-direction: column;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 115px;
+    max-width: 180px;
+}
+
+
+
+/* *************************************MEDIA QUERIES********************************************* */
+
+
+
+
+

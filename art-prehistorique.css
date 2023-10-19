@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@200;300;400;600&display=swap');
+
+/* blanc texte et fond : #FDF9F9 , fond noir : #1F1D1D, fond footer : #1F1A1A , rouge bdx : #800404*/
+
+body {
+    background-color: #FDF9F9;
+    color: #FDF9F9;
+}
+button {
+    color: #FDF9F9;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 20px;
+    border: 1px solid #1F1D1D;
+    background: #800404;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+li {
+    list-style: none;
+}
+a {
+    color: #FDF9F9;
+    text-decoration: none;
+}
+
+h2{
+    font-family: DM Serif Display;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* ************************ HEADER ************************************/
+.logo_header {
+    margin-left: 35px;
+}
+header {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    align-items: center;
+    z-index: 1;
+}
+.navbar {
+    width: 100%;
+}
+.navbar ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 126px;
+    padding-right: 25px;
+}
+.link_nav {
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.link span {
+    display: inline-block;
+}
+.link_nav:hover span {
+    transform: rotate(90deg);
+}
+
+/* *********************** HERO ****************************/
+.hero {
+    position: relative;
+    overflow: hidden;
+}
+.hero::before {
+    position: absolute;
+    display: block;
+    content: "";
+    top: -10px;
+    left: -10px;
+    width: calc(100% + 20px);
+    height: calc(100% + 20px);
+    z-index: -1;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url("./médias/l\'art\ préhistorique\ bg\ header.png"), lightgray 50%;
+    filter: blur(2px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1 {
+    padding-top: 297px;
+    padding-bottom: 200px;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: DM Serif Display;
+    font-size: 110px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+/* ************************************ INFO************************************ */
+.info {
+    width: 100%;
+    background-color: #1F1D1D;
+    padding-bottom: 200px;
+}
+
+.info h2 {
+    margin-left: 283px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 80px;
+    margin-bottom: 29px;
+}
+
+.info ul {
+    margin-left: 283px;
+    border-left: 4px solid #FDF9F9;
+    height: 177px;
+}
+.info p {
+    margin-bottom: 36px;
+    padding-left: 41px;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.info button {
+    width: 366px;
+    height: 77px;
+    padding: 11px 10px;
+    gap: 10px;
+    margin: -82px 0 0 842px;
+}
+
+/* *********************** Quote ************************************ */
+
+.quote {
+    width: 1216px;
+    margin: 0 auto;
+    padding: 200px 0 ;
+}
+.quote h2 {
+    color: #1F1D1D;
+    text-align: center;
+    font-family: DM Serif Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* **************************ART PREHISTORIQUE*************************** */
+
+.art_prehistorique {
+    background-color: #1F1D1D;
+}
+.art_prehistorique p {
+    font-family: Inter;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-top: 29px;
+    max-width: 697px;
+}
+
+.meta {
+    font-size: 25px !important;   
+    font-weight: 200 !important;
+    padding-bottom: 80px !important;
+}
+
+/* *********************** ACCESS ************************************ */
+.access {
+    max-width: 1096px ;
+    padding-top: 80px;
+    display: flex;
+    border-bottom: 2px solid #FDF9F9;
+    justify-content: space-between;
+}
+
+.access_info {
+    width: 50%;
+}
+
+.access button {
+    width: 389px;
+    padding: 11px 10px;
+    gap: 10;
+    margin-bottom: 80px;
+}
+
+.access img {
+    flex: 1;
+    height: 400px;
+    margin-left: 54px;
+    padding-left: 101px;
+    border-left: 4px solid #FDF9F9;
+}
+
+
+/* ***********************EXPO ONLINE********************* */
+.expo_online {
+    max-width: 1096px ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 2px solid #FDF9F9;
+}
+.expo_online h2 {
+    margin-top: 80px;
+    margin-bottom: 38px;
+    display: inline-block;
+}
+
+.expo_online iframe {
+    width: 664px;
+    height: 389px;
+    margin-bottom: 80px;
+    background: #241010;
+}
+
+.expo_online button {
+    width: 389px;
+    height: 60px;
+    padding: 11px 10px;
+    margin-bottom: 80px;
+    gap: 10px;
+}
+
+/* *****************ACTIVITY********************* */
+
+.activity {
+    max-width: 1096px ;
+    padding-top: 80px;
+    border-bottom: 2px solid #FDF9F9;
+}
+
+.activity button {
+    padding: 11px 10px;
+    gap: 10;
+    margin-bottom: 80px;
+    width: 380px;
+    height: 79px;
+}
+
+
+/* ******************SHOP********************** */
+
+.shop {
+    max-width: 1096px ;
+    padding-top: 80px;
+    display: flex;
+    border-bottom: 2px solid #FDF9F9;
+    justify-content: space-between;
+}
+
+.shop button {
+    width: 412px;
+    height: 60px;
+    padding: 11px 10px;
+    gap: 10px;
+    margin-bottom: 80px;
+}
+
+.shop img {
+    flex: 1;
+    height: 400px;
+    margin-left: 54px;
+    padding-left: 101px;
+    border-left: 4px solid #FDF9F9;
+}
+
+/* ******************PARTNER********************** */
+
+.partner {
+    max-width: 1096px ;
+    padding-top: 80px;
+}
+
+.partner p {
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.partner_logo {
+    display: flex;
+    gap: 20px;
+    margin: 80px 0 ;
+}
+
+.partner_meta {
+    padding-bottom: 38px;
+}   
+.partner button {
+    width: 389px;
+    height: 60px;
+    padding: 11px 10px;
+    margin-bottom: 200px;
+    gap: 10px;
+}
+
+
+/* ************************FOOTER********************** */
+footer {
+    background-color: #1F1A1A;
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 200px;
+}
+.logo_musee_footer {
+    margin-left: 60px;
+    margin-right: 48px;
+}
+
+.time {
+    margin-right: 65px;
+    padding-left: 81px;
+    border-left: 8px solid #FDF9F9;
+}
+footer h3{   
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+footer p {
+    max-width: 219px;
+    margin-top: 29px;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.adress {
+    margin-right: 60px;
+}
+
+.contact img {
+    padding-top: 29px;
+    padding-right: 20px;
+}
+
+footer nav {
+    display: flex;
+    flex-direction: column;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 115px;
+    max-width: 180px;
+}
+
+
+
+
+/* *************************************MEDIA QUERIES********************************************* */
+
+
+
+
+
