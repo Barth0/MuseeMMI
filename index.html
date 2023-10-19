@@ -2,81 +2,75 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Nunito:wght@300&family=Oswald:wght@500&display=swap" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=DM Serif Display' rel='stylesheet'>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="reset.css" rel="stylesheet" type="text/css" />
-    <link href="style.css" rel="stylesheet" type="text/css" />
     <title>Musée d'Aquitaine</title>
+    <meta name="description" content="Le Musée d'Aquitaine abrite une vaste collection permanente qui retrace l'histoire de la région depuis la préhistoire jusqu'à l'époque contemporaine. Les expositions couvrent une variété de thèmes, notamment l'archéologie, l'ethnographie, l'histoire industrielle, l'art et la culture. Les visiteurs peuvent explorer des objets archéologiques, des artefacts historiques, des œuvres d'art, des photographies et bien plus encore.">
+    <link rel="shortcut icon" href="./médias/logo-musee-aquitaine header.png">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./index.css">
 </head>
 <body>
     <header>
-        <img src="logomusee.png" alt="logo musée d'Aquitaine" class="logo">
+        <a href="./index Billel.html"><img src="./médias/logo-musee-aquitaine header.png" alt="logo musée d'Aquitaine" class="logo_header"></a> 
         <nav class="navbar">
-            <ul class="navbar-ul">
-                <li class="liens">
-                    <a href="https://www.musee-aquitaine-bordeaux.fr/fr/article/bienvenue-dans-la-boutique" class="liensnav">Expobuysitions v</a>
+            <ul>
+                <li class="link">
+                    <a href="https://www.musee-aquitaine-bordeaux.fr/fr/article/bienvenue-dans-la-boutique" class="link_nav">Expositions <span>></span></a> 
                 </li>
-                <li class="liens">
-                    <a href="https://www.musee-aquitaine-bordeaux.fr/fr/histoire-du-musee-aquitaine" class="liensnav">Collections v</a>
-
+                <li class="link">
+                    <a href="https://www.musee-aquitaine-bordeaux.fr/fr/histoire-du-musee-aquitaine" class="link_nav">Collections <span>></span></a>
                 </li>
-                <li class="liens">
-                <a href="#actu" class="liensnav">Actualités v</a>
+                <li class="link">
+                    <a href="#" class="link_nav">Actualités <span>></span></a>
                 </li>
-                <li class="liens">
-                    <a href="#info" class="liensnav">Infos pratiques v</a>
+                <li class="link">
+                    <a href="#" class="link_nav">Infos pratiques <span>></span></a>
                 </li>
-                <li class="liens">
-                    <a href="https://www.musee-aquitaine-bordeaux.fr/fr/histoire-du-musee-aquitaine" class="liensnav">Boutique v</a>
+                <li class="link">
+                    <a href="https://www.musee-aquitaine-bordeaux.fr/fr/histoire-du-musee-aquitaine" class="link_nav" >Boutique <span>></span> </a>
                 </li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="title">
-            <h1>Immersion au sein du Patrimoine</h1>
-            <a href=""> 
+        <section class="hero">
+            <div class="container">
+                <h1>Immersion au sein du Patrimoine</h1>
+            </div>
+            <a href="#"> 
                 <button>Billetterie en ligne</button>
             </a>
         </section>
 
         <section class="Exposition">
-                <div class="liste_expo">
-                    <img src="peinture_expo.png" class="peinture_expo">
-                </div>  
-                <div class="text_expo">
+            <img src="./médias/peinture rupestre préhistorique.png" class="peinture_expo">
+                <div class="list_expo">
                     <h2 class="titre_expo">EXPOSITIONS</h2>
                         <ul>
                             <li>
-                                <a href="./expo.html" class="cliquable_expo">
-                                    <h3 class="textdeco">L'art         préhistorique</h3><h3 class="fleche_expo">→</h3> 
+                                <a href="./art-prehistorique.html">
+                                    <h3 class="textdeco">L'art préhistorique</h3><span class="fleche_expo">→</span>
                                 </a>
                             </li>
-                            <hr class="ligne">
                             <li>
-                                <a href="" class="cliquable_expo">
-                                    <h3 class="textdeco">Le parcours 400 000 ans d'histoire</h3><h3 class="fleche_expo">→</h3> 
+                                <a href="#">
+                                    <h3 class="textdeco">Le parcours 400 000 ans d'histoire</h3><span class="fleche_expo">→</span> 
                                 </a>
                             </li>
-                            <hr class="ligne">
                             <li>
-                                <a href="" class="cliquable_expo">
-                                    <h3 class="textdeco">Musée virtuel d'épigraphie</h3> <h3 class="fleche_expo">→</h3> 
+                                <a href="#">
+                                    <h3 class="textdeco">Musée virtuel d'épigraphie</h3> <span class="fleche_expo">→</span> 
                                 </a>
                             </li>
-                            <hr class="ligne">
                             <li>
-                                <a href="" class="cliquable_expo"> 
-                                    <h3 class="textdeco">l'exposition "Destinées juives"</h3><h3 class="fleche_expo">→</h3> 
+                                <a href="#"> 
+                                    <h3 class="textdeco">l'exposition "Destinées juives"</h3><span class="fleche_expo">→</span> 
                                 </a>
                             </li>
                         </ul>
-                        <a href=""> 
-                            <button class="bouttonexpo"><strong>Voir toutes les expositions →</strong></button>
+                        <a href="#"> 
+                            <button>Voir toutes les expositions →</button>
                         </a>
                 </div>
         </section>
@@ -86,7 +80,7 @@
         </section>
 
         <section class="collection">
-            <h2 class="titre_collection">COLLECTIONS</h2>
+            <h2>COLLECTIONS</h2>
             <section class="collection-wrapper">
                 
                 <div class="collec1texte">
@@ -100,7 +94,7 @@
                             </div>
                             
                             <div class="collec1image">
-                                <img src="objetphare.png" alt="trésor Gaulois de tayac" class="imgcollec">
+                                <img src="./médias/trésor Gaulois de tayac.png" alt="trésor Gaulois de tayac" class="imgcollec">
                             </div>
                         </a>
                     </div>
@@ -113,7 +107,7 @@
                                     les plus récentes.</p>
                             </div>
                             <div class="collec1image">
-                                <img src="aquisition.png" alt="pendule au matelot" class="imgcollec">
+                                <img src="./médias/pendule au matelot.png" alt="pendule au matelot" class="imgcollec">
                             </div>
                         </a>
                     </div>
@@ -128,7 +122,7 @@
                                 <p class="description_collec">Centre national de la Résistance, des Forces Françaises Libres et de la Déportation.</p>
                             </div>
                             <div class="collec2image">
-                                <img src="jeanmoulin.png" alt="le bateau s'ils te mordent" class="imgcollec">
+                                <img src="./médias/le bateau s'ils te mordent.png" alt="le bateau s'ils te mordent" class="imgcollec">
                             </div>
                         </a>
                     </div>
@@ -140,7 +134,7 @@
                                 <p class="description_collec">Découvrez les temps forts de l'histoire du musée, depuis le projet de Georges-Henri Rivière jusqu'aux chantiers de rénovation actuels.</p>
                             </div>
                             <div class="collec2image">
-                                <img src="dhieraujd.png" alt="Le musée d'armes et d'objets anciens" class="imgcollec">
+                                <img src="./médias/Le musée d'armes et d'objets anciens.png" alt="Le musée d'armes et d'objets anciens" class="imgcollec">
                             </div>
                         </a>
                     </div>
@@ -151,38 +145,30 @@
     </main>
     
     <footer>
-        <img src="./médias/logo musée d'aquitaine footer.png" alt="musée logo d'Aquitaine 2">
-        <ul class="liste_foot">
-            <li>
-                <h4>Horaires</h4>
-                <p>Du Mardi au Dimanche <br>de 11h à 18h <br>sauf les jours fériés</p>
-            </li>
-            <li>
-                <h4>Adresse</h4>
-                <p>20 Cours Pasteur <br> 33000 Bordeaux</p>
-            </li>
-            <li>
-                <h4>Contact</h4>
-                <a href=""><i> icone fb</i></a>
-                <a href=""><i> icone X</i></a>
-                <a href=""><i> icone insta</i></a>
-            </li>
-            <li>
-                <h4>Horaires</h4>
-                <p>Du Mardi au Dimanche <br>de 11h à 18h <br>sauf les jours fériés</p>
-            </li>
-            <li>
-                <nav>
-                    <a href="">Expositions</a> <br>
-                    <a href="">Collections</a> <br>
-                    <a href="">Actualités</a> <br>
-                    <a href="">Infos pratiques</a> <br>
-                    <a href="">Boutique</a> <br>
-                    <a href="">Mention légales</a> <br>
-                    <a href="">Politiques de <br> confidentialités</a>
-                </nav>
-            </li>
-        </ul>
+        <img src="./médias/logo musée d'aquitaine footer.png" class="logo_musee_footer" alt="musée logo d'Aquitaine 2">
+        <div class="time">
+            <h3>Horaires</h3>
+            <p>Du Mardi au Dimanche de 11h à 18h <br>sauf les jours fériés</p>
+        </div>
+        <div class="adress">
+            <h3>Adresse</h3>
+            <p>20 Cours Pasteur 33000 Bordeaux</p>
+        </div>
+        <div class="contact">
+            <h3>Contact</h3>
+            <a href="https://www.facebook.com/musee.aquitaine/"><img src="./médias/facebook.png" alt="logo facebook"></a>
+            <a href="https://twitter.com/MuseeAquitaine"><img src="./médias/Twitter.png" alt="logo twitter"></a>
+            <a href="https://www.instagram.com/musee_aquitaine/"><img src="./médias/insta.png" alt="logo instagram"></a>
+        </div>
+        <nav>
+            <a href="https://www.musee-aquitaine-bordeaux.fr/fr/article/bienvenue-dans-la-boutique">Expositions</a> 
+            <a href="https://www.musee-aquitaine-bordeaux.fr/fr/histoire-du-musee-aquitaine">Collections</a> 
+            <a href="#">Actualités</a> 
+            <a href="#">Infos pratiques</a> 
+            <a href="https://www.musee-aquitaine-bordeaux.fr/fr/histoire-du-musee-aquitaine">Boutique</a> 
+            <a href="#">Mention légales</a> 
+            <a href="#">Politiques de confidentialités</a>
+        </nav>
     </footer>
 </body>
 </html>

@@ -6,71 +6,69 @@
     <title>Musée d'Aquitaine</title>
     <meta name="description" content="Le Musée d'Aquitaine abrite une vaste collection permanente qui retrace l'histoire de la région depuis la préhistoire jusqu'à l'époque contemporaine. Les expositions couvrent une variété de thèmes, notamment l'archéologie, l'ethnographie, l'histoire industrielle, l'art et la culture. Les visiteurs peuvent explorer des objets archéologiques, des artefacts historiques, des œuvres d'art, des photographies et bien plus encore.">
     <link rel="shortcut icon" href="./médias/logo-musee-aquitaine header.png">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./index.css">
 </head>
 <body>
     <header>
-        <img src="./médias/logo-musee-aquitaine header.png" alt="logo musée d'Aquitaine" class="link">
+        <a href="./index.html"><img src="./médias/logo-musee-aquitaine header.png" alt="logo musée d'Aquitaine" class="logo_header"></a> 
         <nav class="navbar">
             <ul>
                 <li class="link">
-                    <a href="https://www.musee-aquitaine-bordeaux.fr/fr/article/bienvenue-dans-la-boutique" class="link_nav">Expositions </a> 
+                    <a href="https://www.musee-aquitaine-bordeaux.fr/fr/article/bienvenue-dans-la-boutique" class="link_nav">Expositions <span>></span></a> 
                 </li>
                 <li class="link">
-                    <a href="https://www.musee-aquitaine-bordeaux.fr/fr/histoire-du-musee-aquitaine" class="link_nav">Collections</a>
+                    <a href="https://www.musee-aquitaine-bordeaux.fr/fr/histoire-du-musee-aquitaine" class="link_nav">Collections <span>></span></a>
                 </li>
                 <li class="link">
-                    <a href="#" class="link_nav">Actualités</a>
+                    <a href="#" class="link_nav">Actualités <span>></span></a>
                 </li>
                 <li class="link">
-                    <a href="#" class="link_nav">Infos pratiques</a>
+                    <a href="#" class="link_nav">Infos pratiques <span>></span></a>
                 </li>
                 <li class="link">
-                    <a href="https://www.musee-aquitaine-bordeaux.fr/fr/histoire-du-musee-aquitaine" >Boutique</a>
+                    <a href="https://www.musee-aquitaine-bordeaux.fr/fr/histoire-du-musee-aquitaine" class="link_nav" >Boutique <span>></span> </a>
                 </li>
             </ul>
         </nav>
     </header>
     <main>
         <section class="hero">
-            <img src="./médias/photo statue image header accueil.png" alt="statue musée d'Aquitaine" class="bg_header">
-            <h1>Immersion au sein Patrimoine</h1>
-            <a href=""> 
+            <div class="container">
+                <h1>Immersion au sein <br>Patrimoine</h1>
+            </div>
+            <a href="#"> 
                 <button>Billeterie en ligne</button>
             </a>
         </section>
 
-        <section class="exposition">
-                <img src="./médias/peinture rupestre préhistorique.png" alt="peinture rupestre préhistorique">
-            <div>
+        <section class="exposition ">
+            <img src="./médias/peinture rupestre préhistorique.png" class="peinture_expo" alt="peinture rupestre préhistorique">
+            <div class="list_expo container">
                 <h2>Expositions</h2>
-                <ul>
+                <ul class="link_expo">
                     <li>
                         <a href="./art-prehistorique.html">
-                          <button>
-                              <h3>L'art préhistorique</h3>
-                          </button>
+                            <h3 class="textdeco">L'art préhistorique</h3>
+                            <span class="fleche_expo">→</span>
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                          <button>
-                              <h3>Le parcours 400 000 ans d'histoire</h3>
-                          </button>
+                            <h3 class="textdeco">Le parcours 400 000 ans d'histoire</h3>
+                            <span class="fleche_expo">→</span> 
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                          <button>
-                              <h3>Musée virtuel d'épigraphie</h3> 
-                          </button>
+                            <h3 class="textdeco">Musée virtuel d'épigraphie</h3>
+                            <span class="fleche_expo">→</span> 
                         </a>
                     </li>
                     <li>
                         <a href="#"> 
-                            <button>
-                                <h3>l'exposition "Destinées juives"</h3> 
-                            </button>
+                            <h3 class="textdeco">L'exposition "Destinées juives"</h3>
+                            <span class="fleche_expo">→</span> 
                         </a>
                     </li>
                 </ul>
@@ -83,12 +81,12 @@
         <section class="quote">
             <span>"</span>
             <p>Le Musée d'Aquitaine abrite une vaste collection permanente qui retrace l'histoire de la région depuis la préhistoire jusqu'à l'époque contemporaine. Les expositions couvrent une variété de thèmes, notamment l'archéologie, l'ethnographie, l'histoire industrielle, l'art et la culture. Les visiteurs peuvent explorer des objets archéologiques, des artefacts historiques, des œuvres d'art, des photographies et bien plus encore.</p>
-            <span>"</span>
+            <span class="right">"</span>
         </section>
 
         <section class="collection">
-            <h2>Collections</h2>
-            <div>
+            <div class="container">
+                <h2>Collections</h2>
                 <a href="#">
                     <article>
                         <h3>Les objets phares du musée</h3>
@@ -121,32 +119,32 @@
                     </article>
                 </a>
             </div>
-            <a href=""><button>Voir toutes les collections</button></a>
+            <a href="#"><button>Voir toutes les collections</button></a>
         </section>
     </main>
     
     <footer>
-        <img src="./médias/logo musée d'aquitaine footer.png" alt="musée logo d'Aquitaine 2">
-        <div>
-            <h4>Horaires</h4>
-            <p>Du Mardi au Dimanche de 11h à 18h sauf les jours fériés</p>
+        <img src="./médias/logo musée d'aquitaine footer.png" class="logo_musee_footer" alt="musée logo d'Aquitaine 2">
+        <div class="time">
+            <h3>Horaires</h3>
+            <p>Du Mardi au Dimanche de 11h à 18h <br>sauf les jours fériés</p>
         </div>
-        <div>
-            <h4>Adresse</h4>
+        <div class="adress">
+            <h3>Adresse</h3>
             <p>20 Cours Pasteur 33000 Bordeaux</p>
         </div>
-        <div>
-            <h4>Contact</h4>
-            <a href="#"><i> icone fb</i></a>
-            <a href="#"><i> icone X</i></a>
-            <a href="#"><i> icone insta</i></a>
+        <div class="contact">
+            <h3>Contact</h3>
+            <a href="https://www.facebook.com/musee.aquitaine/"><img src="./médias/facebook.png" alt="logo facebook"></a>
+            <a href="https://twitter.com/MuseeAquitaine"><img src="./médias/Twitter.png" alt="logo twitter"></a>
+            <a href="https://www.instagram.com/musee_aquitaine/"><img src="./médias/insta.png" alt="logo instagram"></a>
         </div>
         <nav>
-            <a href="#">Expositions</a> 
-            <a href="#">Collections</a> 
+            <a href="https://www.musee-aquitaine-bordeaux.fr/fr/article/bienvenue-dans-la-boutique">Expositions</a> 
+            <a href="https://www.musee-aquitaine-bordeaux.fr/fr/histoire-du-musee-aquitaine">Collections</a> 
             <a href="#">Actualités</a> 
             <a href="#">Infos pratiques</a> 
-            <a href="#">Boutique</a> 
+            <a href="https://www.musee-aquitaine-bordeaux.fr/fr/histoire-du-musee-aquitaine">Boutique</a> 
             <a href="#">Mention légales</a> 
             <a href="#">Politiques de confidentialités</a>
         </nav>
