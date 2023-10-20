@@ -145,14 +145,12 @@ h1 {
     width: 365px;
 }
 
-.link_expo{
-    transition: background-color 0.3s, color 0.3s;
-}
 .exposition li {
     max-width: 466px;
     padding: 29px 0;
 }
 .exposition li:hover{
+    transition: background-color 0.3s, color 0.3s;
     background-color: black;
     margin-left: -20px;
     padding-left: 20px;
@@ -186,15 +184,14 @@ h1 {
     max-width: 1089px;
     margin: 0 auto;
     margin-bottom: 200px;
-    border: 1px solid red;
 }
-.quote span{
+.left{
+    line-height: 0%;
     color: #1F1D1D;
     font-family: DM Serif Display;
     font-size: 150px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
 }
 .quote p{
     text-align: center;
@@ -207,16 +204,52 @@ h1 {
 }
 
 .right{
-    float: right;
+    color: #1F1D1D;
+    font-family: DM Serif Display;
+    font-size: 150px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 84%;
 }
 
 /* ****************************************************************COLLECTION******************************* */
-.collection {
-    clear: both;
-    margin-top: 200px;
+.collec1image, .collec2image{
+    position: relative;
+    overflow: hidden;
 }
-.collection h2{
-    margin-bottom: 57px;
+.collec1image::after{
+    /*display: none;*/
+    opacity: 0;
+    color: white;
+    content: "Découvrir";
+    font-family: 'DM Serif Display';
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 400;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.6s ease;
+}
+
+.collec2image::after{
+    opacity: 0;
+    color: white;
+    content: "Découvrir";
+    font-family: 'DM Serif Display';
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 400;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.collection h2 {
+    text-align: center;
     color: #1F1D1D;
     font-family: DM Serif Display;
     font-size: 70px;
@@ -224,6 +257,150 @@ h1 {
     font-weight: 400;
     line-height: normal;
 }
+
+.collection {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+
+.espace {
+    color: #FDF9F9;
+}
+
+.collection-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3em 10em;
+}
+
+.collec1texte, .collec2texte {
+    display: flex;
+    justify-content: center;
+    margin: 0px 95px;
+}
+
+
+.texte_collec {
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: 40px;
+    flex: 0 0 50%;
+    max-width: 100;
+}
+
+.div-text-test{
+    position: relative;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 5px 20px;
+    margin-bottom: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150px;
+}
+
+.collec {
+    flex: 0 0 50%;
+    padding: 3em;
+    box-sizing: border-box;
+}
+
+.fleche_collec{
+    color:black;
+    font-size: 35px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px 20px;
+}
+
+.imgcollec {
+    width: 100%;
+    transition: all 0.6s ease;
+}
+
+.collec1image:hover {
+    .imgcollec{
+        filter: blur(5px);
+        transform: scale(1.1);
+    }
+}
+.collec1image:hover::after {
+    opacity: 1;
+}
+.collec2image:hover {
+    .imgcollec{
+        filter: blur(5px);
+        transform: scale(1.1);
+    }
+}
+.collec2image:hover::after {
+    opacity: 1;
+}
+
+.h3collec{
+    color:black;
+    font-size: 35px;
+}
+
+
+.description_collec{
+    text-align: right;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.buttoncollec{
+    margin-top: -22px;
+    margin-bottom: 200px;
+    text-align: center;
+    height: 85px;
+    padding: 11px 10px;
+}
+.collection button {
+    width: 447px;
+    height: 85px;
+    padding: 11px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ************************FOOTER********************** */
 footer {
