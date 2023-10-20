@@ -1,0 +1,206 @@
+/* *************************************MEDIA QUERIES********************************************* */
+
+@media screen and (max-width: 1389px) {
+    .link_nav {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1305px) {
+    .link_nav {
+        font-size: 15px;
+    }
+    .exposition button {
+        font-size: 26px;
+    }
+    .collection-wrapper {
+        padding: 48px 110px;
+    }
+    .contact img {
+        max-width: 20%;
+    }
+}
+
+@media screen and (max-width: 1224px) {
+    button{
+        font-size: 25px;
+    }
+    .navbar ul {
+        gap: 100px;
+    }
+    .exposition button {
+        font-size: 23.3px;
+    }
+    footer p {
+        font-size: 15px;
+        max-width: 180px;
+    }
+}
+@media screen and (max-width: 1125px) {
+    .navbar ul {
+        gap: 80px;
+    }
+    .exposition a {
+        font-size: 28px;
+    }
+    .exposition button {
+        font-size: 22px;
+    }
+    .collection-wrapper {
+        padding: 48px 90px;
+    }
+    .collection h3 {
+        font-size: 28px;
+    }
+    .time{
+        padding-left: 41px;
+    }
+}
+@media screen and (max-width: 1084px) {
+    .navbar ul {
+        gap: 50px;
+    }
+    .exposition button {
+        font-size: 19px;
+    }
+    footer h3{
+        font-size: 28px;
+    }
+    footer p {
+        font-size: 13px;
+        max-width: 140px;
+    }
+}
+@media screen and (max-width: 995px) {
+    .exposition h2{
+        font-size: 55px;
+    }
+    .exposition a {
+        font-size: 23px;
+    }
+    .exposition button {
+        font-size: 16px;
+        height: 65px;
+    }
+    .collection h2{
+        font-size: 55px;
+    }
+    .collection h3 {
+        font-size: 23px;
+        max-width: 80%;
+    }
+    .collection-wrapper {
+        padding: 48px 50px;
+    }
+    .description_collec {
+        font-size: 14px;
+    }
+
+    footer{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        grid-template-areas: 
+        "lo ho ad"
+        "vi co na"; 
+    }
+
+    .logo_musee_footer{
+        grid-area: lo;
+    }
+    .time{
+        grid-area: ho;
+    }
+    .adress {
+        grid-area: ad;
+    }
+    .contact{
+        grid-area: co;
+        padding-left: 41px;
+    }
+    footer nav{
+        grid-area: na;
+    }
+    .contact img {
+        max-width: 17%;
+        height: 17%;
+    }
+    footer p {
+        font-size: 16px;
+        max-width: 180px;
+    }
+}
+
+@media screen and (max-width: 908px) {
+    .navbar ul {
+        gap: 30px;
+    }
+    .collection-wrapper {
+        padding: 48px 60px;
+    }
+}
+@media screen and (max-width: 860px) {
+    .navbar ul {
+        text-decoration: underline #FDF9F9;
+        gap: 40px;
+    }
+    .navbar span {
+        display: none;
+    }
+    .exposition h2{
+        font-size: 40px;
+    }
+    .button-expo{
+        width: 120%;
+    }
+    .quote p {
+        font-size: 22px ;
+    }
+    .collection h2{
+        font-size: 40px;
+    }
+    .collection-wrapper {
+        padding: 48px 0;
+    }
+}
+@media screen and (max-width: 796px) {
+    .navbar ul {
+        gap: 20px;
+    }
+    h1 {
+        font-size: 70px ;
+    }
+    .exposition a {
+        font-size: 20px;
+    }
+    .collec1texte, .collec2texte{
+        margin: 0 60px;
+    }
+}
+@media screen and (max-width: 700px) {
+    
+    .peinture_expo{
+        display: none;
+    }
+    .exposition {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .exposition h2 {
+        text-align: center;
+    }
+    .exposition li {
+        max-width: none;
+    }
+    .exposition h3 {
+        font-size: 30px;
+        width: 86%;
+    }
+    .list_expo {
+        grid-column: 1/13;
+        margin: 0;
+    }
+    .button-expo {
+        justify-content: center;
+    }
+}
