@@ -79,7 +79,7 @@ header {
     width: calc(100% + 20px);
     height: calc(100% + 20px);
     z-index: -1;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url("./médias/photo\ statue\ image\ header\ accueil.png"), lightgray 50%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url("./médias/photo\ statue\ image\ header\ accueil.webp"), lightgray 50%;
     filter: blur(2px);
     background-repeat: no-repeat;
     background-size: cover;
@@ -368,46 +368,13 @@ h1 {
     padding: 11px 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ************************FOOTER********************** */
 footer {
     background-color: #1F1A1A;
     display: flex;
     padding-top: 80px;
     padding-bottom: 200px;
+    color: #FDF9F9;
 }
 .logo_musee_footer {
     margin-left: 60px;
@@ -420,7 +387,6 @@ footer {
     border-left: 8px solid #FDF9F9;
 }
 footer h3{   
-    color: #FDF9F9;
     font-family: Inter;
     font-size: 40px;
     font-style: normal;
@@ -428,7 +394,6 @@ footer h3{
     line-height: normal;
 }
 footer p {
-    color: #FDF9F9;
     max-width: 219px;
     margin-top: 29px;
     font-family: Inter;
@@ -447,6 +412,25 @@ footer p {
     padding-right: 20px;
 }
 
+.logofb {
+    width: 22.512px;
+    height: 40.411px;
+}
+
+.logotwitter{
+    width: 49.167px;
+    height: 37.325px;
+    
+}
+
+.logoinsta{
+    width: 43.333px;
+    height: 40.908px;
+}
+
+footer a {
+    color: #FDF9F9;
+}
 footer nav {
     display: flex;
     flex-direction: column;
@@ -460,4 +444,11 @@ footer nav {
 }
 
 
+
+
 /* *************************************MEDIA QUERIES********************************************* */
+
+
+
+
+
