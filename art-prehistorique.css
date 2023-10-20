@@ -229,8 +229,14 @@ h1 {
     margin-bottom: 38px;
     display: inline-block;
 }
-
+.expo_online img {
+    width: 664px;
+    height: 389px;
+    margin-bottom: 80px;
+    background: #241010;
+}
 .expo_online iframe {
+    display: none;
     width: 664px;
     height: 389px;
     margin-bottom: 80px;
