@@ -546,7 +546,7 @@ footer nav {
         grid-template-rows: repeat(2,1fr);
         grid-template-areas: 
         "lo ho ad"
-        "vi co na";
+        "vi co na"; 
     }
 
     .logo_musee_footer{
