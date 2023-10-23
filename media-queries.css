@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@200;300;400;600&display=swap');
+
+
+
+
 /* *************************************MEDIA QUERIES********************************************* */
 
 @media screen and (max-width: 1389px) {
@@ -97,6 +102,7 @@
     }
 
     footer{
+        gap: 2px;
         display: grid;
         grid-template-columns: repeat(3,1fr);
         grid-template-rows: repeat(2,1fr);
@@ -176,9 +182,23 @@
     .collec1texte, .collec2texte{
         margin: 0 60px;
     }
+    footer p {
+        font-size: 13px;
+    }
 }
 @media screen and (max-width: 700px) {
-    
+    header {
+        display: block;
+    }
+    header img {
+        width: 102px !important;
+        height: 102px;
+    }
+    .navbar ul {
+        padding-right: 0;
+        gap: 0px;
+        justify-content: space-evenly;
+}
     .peinture_expo{
         display: none;
     }
@@ -192,6 +212,19 @@
     .exposition li {
         max-width: none;
     }
+    .exposition a{
+    margin-top: 0;
+    color: #1F1D1D;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    }
+    .exposition span{
+    font-size: 45px;
+    font-weight: 800;
+    }
     .exposition h3 {
         font-size: 30px;
         width: 86%;
@@ -201,6 +234,14 @@
         margin: 0;
     }
     .button-expo {
+        padding: 55px 0 ;
+        max-width: 100%;
+        background-color: #1F1D1D;
         justify-content: center;
+    }
+    .contact img {
+        display: block;
+        max-width: 20%;
+        height: 20%;
     }
 }
