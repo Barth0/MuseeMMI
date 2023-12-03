@@ -5,6 +5,40 @@
 
 /* *************************************MEDIA QUERIES********************************************* */
 
+@media screen and (min-width: 1700px) {
+    button {
+        font-size: 32px;
+    }
+    h1 {
+        font-size: 98px ;
+    }
+    .exposition h2 {
+        font-size: 78px ;
+    }
+    .exposition a {
+        font-size: 38px;
+    }
+    .collection h2 {
+        font-size: 78px ;
+    }
+    .head-collection {
+        font-size: 38px;
+    }
+    .meta {
+        font-size:24px ;
+    }
+    footer h3 {
+        font-size: 44.5px;
+    }
+    footer p {
+        font-size: 22px;
+    }
+    footer nav {
+        font-size: 22px;
+    }
+
+}
+
 @media screen and (max-width: 1389px) {
     .link_nav {
         font-size: 18px;

@@ -1,8 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@200;300;400;600&display=swap');
-/* *{
-    border: 1px solid red;
-} */
-
 
 body {
     margin: 0 60px;
@@ -21,7 +17,7 @@ a{
 /***************************************** HEADER *************************************************************/
 header{
     display: flex;
-    position:absolute;    
+    position:absolute;   
 }
 
 .navbar{
@@ -43,8 +39,7 @@ header{
     margin: 0px 20px;
 }
 
-.link_nav{
-    
+.link-  nav{
     color: #FDF9F9;
     text-decoration: none;
 }
