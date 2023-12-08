@@ -93,8 +93,8 @@ header {
   position: absolute;
   display: block;
   top: -10px;
-  left: -10px;
-  width: calc(100% + 20px);
+  left: 0;
+  width: 100%;
   height: var(--beforeHeight);
   z-index: -1;
   background: linear-gradient(
@@ -102,7 +102,7 @@ header {
       rgba(0, 0, 0, 0.2) 0%,
       rgba(0, 0, 0, 0.2) 100%
     ),
-    url("./médias/index/photo\ statue\ image\ header\ accueil.png"),
+    url("./médias/index/photo-statue-image-header-accueil.webp"),
     lightgray 50%;
   filter: blur(2px);
   background-repeat: no-repeat;
