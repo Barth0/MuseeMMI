@@ -91,7 +91,7 @@ header {
     width: calc(100% + 20px);
     height: calc(100% + 20px);
     z-index: -1;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url("./médias/l\'art\ préhistorique\ bg\ header.webp"), lightgray 50%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url("./médias/art\ préhistorique/l\'art\ préhistorique\ bg\ header.webp"), lightgray 50%;
     filter: blur(2px);
     background-repeat: no-repeat;
     background-size: cover;

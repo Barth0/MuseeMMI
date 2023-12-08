@@ -18,7 +18,7 @@ body {
 button {
     color: #FDF9F9;
     font-family: 'Inter', sans-serif;
-    font-size: calc(20px + 0.7vw);
+    font-size: calc(14px + 0.7vw);
     border-radius: 20px;
     background: #800404;
     cursor: pointer;
@@ -96,9 +96,9 @@ header {
     top: -10px;
     left: -10px;
     width: calc(100% + 20px);
-    height: 705px;
+    height: var(--beforeHeight);
     z-index: -1;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url("./médias/photo\ statue\ image\ header\ accueil.png"), lightgray 50%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url("./médias/index/photo\ statue\ image\ header\ accueil.png"), lightgray 50%;
     filter: blur(2px);
     background-repeat: no-repeat;
     background-size: cover;
@@ -113,7 +113,7 @@ h1 {
     color: #FDF9F9;
     padding-top: 80px;
     padding-bottom: 80px;
-    font-size: calc(45px + 3vw);
+    font-size: calc(35px + 3vw);
     line-height: 130px;
 }
 
@@ -136,7 +136,8 @@ h1 {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 200px;
-    width: 85%;
+    margin-left: 4.1%;
+    width: 86%;
 }
 
 .exposition img{
@@ -361,17 +362,15 @@ h1 {
 
 /* *******************************************FOOTER************************************* */
 footer {
+    padding: 80px 4.2% 200px ;
     display: flex;
     background-color: #1F1A1A;
     color: #FDF9F9;
-    padding-top: 80px;
-    padding-bottom: 200px;
     justify-content: space-between;
     font-family: 'Inter', sans-serif;
 }
 
 .logo-footer {
-    margin-left: 4.2%;
     max-height: 192px;
     border-right: 8px solid #D9D9D9;
     padding-right: 3.33%;
@@ -385,7 +384,7 @@ footer h3{
 }
 
 footer p {
-    max-width: 219px;
+    max-width: 270px;
     margin-top: 29px;
     font-size: calc(10px + 0.7vw);
     font-style: italic;
@@ -395,22 +394,22 @@ footer p {
 
 .contact img {
     margin-top: 29px;
-    margin-right: 20px;
+    margin-right: 18px;
 }
 
-.logo-fb {
-    max-width: 22px;
-    height: 42.3px;
+.logofb {
+    width: 12%;
+    height: 16%;
 }
 
-.logo-twitter{
-    max-width: 49px;
-    height: 39.9px;
+.logotwitter{
+    width: 26.5%;
+    height: 15%;
 }
 
-.logo-insta{
-    width: 45.2px;
-    height: 43px;
+.logoinsta{
+    width: 24.5%;
+    height: 16%;
 }
 
 footer a {
@@ -420,10 +419,8 @@ footer a {
 footer nav {
     display: flex;
     flex-direction: column;
-    margin-right: 4.2%;
     row-gap: 12px;
     font-size: calc(10px + 0.7vw);
-
     font-weight: 600;
     max-width: 160px;
 }
