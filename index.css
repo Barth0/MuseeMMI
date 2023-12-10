@@ -103,7 +103,6 @@ header {
       rgba(0, 0, 0, 0.2) 100%
     ),
     url("./médias/index/photo-statue-image-header-accueil.webp"), rgb(0, 0, 0,0.75) 50%;
-  /* filter: blur(2px); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
