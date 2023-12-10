@@ -307,6 +307,7 @@ h1 {
 .img-collection {
   position: relative;
   overflow: hidden;
+  width: 100%;
 }
 
 .img-collection:hover {
