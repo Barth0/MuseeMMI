@@ -86,7 +86,7 @@
   footer nav {
     grid-area: na;
   }
-  .contact img {
+  .contact a {
     scale: 0.8;
   }
 }
@@ -121,6 +121,7 @@
     width: 100%;
     margin: 0 auto 80px;
   }
+
   .exposition h2 {
     padding-bottom: 80px;
     margin-bottom: 0;
@@ -129,15 +130,19 @@
   .exposition img {
     display: none;
   }
+
   .list-expo {
     width: 100%;
   }
+
   .list-expo ul {
     width: 100%;
   }
+
   .exposition p {
     margin-left: 5%;
   }
+
   .button-expo {
     background-color: #1f1a1a;
     width: 100vw;
@@ -145,23 +150,28 @@
     padding: 40px 0;
     margin: 0;
   }
+
   .exposition button {
     width: 80%;
   }
+
   .collections1,
   .collections2 {
     width: 100%;
     flex-direction: column;
     row-gap: 80px;
   }
+
   .collection article {
     width: 100%;
     height: 552px;
   }
+
   .collection article a {
     align-items: center;
     row-gap: 29px;
   }
+
   .info-collection {
     font-weight: 400;
     border: unset;
@@ -169,20 +179,23 @@
     flex-direction: column;
     width: 100vw;
   }
+
   .head-collection {
-    width: 100%;
+    width: 96%;
     font-family: "Dm Serif Display";
     margin-left: -29px;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
+
   .meta {
     font-size: 18px;
   }
+
   .collection img {
     width: 100vw;
-    height: unset;
     scale: unset;
   }
+
   .button-collec {
     width: 55vw;
     height: 72px;
@@ -194,15 +207,25 @@
     margin-bottom: 120px;
   }
   .hero a {
-    width: 280px;
+    width: 220px;
+    height: 48px;
+  }
+
+  .button-expo {
+    height: 54px;
   }
 
   .collection article {
-    height: 410px;
+    height: 440px;
+  }
+
+  .info-collection {
+    height: 38%;
   }
 
   .button-collec {
-    width: 74vw;
+    width: 72vw;
+    height: 56px;
   }
 
   footer {
@@ -233,16 +256,16 @@
   .contact {
     min-width: 155px;
   }
-  .contact img {
+  .contact a {
+    scale: 0.6;
     margin-right: 8px;
     margin-top: 14px;
-    scale: 0.6;
   }
 }
 
 @media screen and (max-width: 425px) {
   .head-collection {
-    margin-left: 0;
+    margin-left: 8px;
   }
   .logo-footer {
     width: 68px;
@@ -255,13 +278,12 @@
     height: 75px;
   }
 
-  footer article {
+  footer article,
+  footer nav {
     max-width: 122px;
-  }
-  .planning,
-  .contact {
     margin-left: 14px;
   }
+
   .contact {
     min-width: unset;
   }
