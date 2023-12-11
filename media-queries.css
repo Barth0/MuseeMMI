@@ -206,6 +206,16 @@
   .hero {
     margin-bottom: 120px;
   }
+
+.hero::before {
+  background:linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.2) 0%,
+    rgba(0, 0, 0, 0.2) 100%
+  ),
+  url("./médias/index/photo-statue-image-header-accueil-mobile.webp"), rgb(0, 0, 0,0.75) cover no-repeat center;
+}
+
   .hero a {
     width: 220px;
     height: 48px;
