@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@200;300;400;600&display=swap");
 
-/* blanc texte et fond : #FDF9F9 , fond noir : #1F1D1D, fond footer : #1F1A1A , rouge bdx : #800404*/
+/* COLORS : blanc texte et fond : #FDF9F9 , fond noir : #1F1D1D, fond footer : #1F1A1A , rouge bdx : #800404*/
 
 html {
   scroll-behavior: smooth;
@@ -95,14 +95,14 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  height: var(--beforeHeight);
+  height: 100%;
   z-index: -1;
   background: linear-gradient(
       0deg,
       rgba(0, 0, 0, 0.2) 0%,
       rgba(0, 0, 0, 0.2) 100%
     ),
-    url("./médias/index/photo-statue-image-header-accueil.webp"), rgb(0, 0, 0,0.75) 50%;
+    url("/médias/index/photo-statue-image-header-accueil.webp"), rgb(0, 0, 0,0.75) 50%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

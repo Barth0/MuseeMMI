@@ -1,16 +1,9 @@
-const header = document.getElementById('header')
-    hero = document.getElementById('hero')
-    logoFooter = document.getElementById('logo-footer');
+const logoFooter = document.getElementById('logo-footer')
     imgCollec1 = document.getElementById('img-collec1')
     imgCollec2 = document.getElementById('img-collec2')
     imgCollec3 = document.getElementById('img-collec3')
-    imgCollec4 = document.getElementById('img-collec4')
+    imgCollec4 = document.getElementById('img-collec4');
 
-var headerHeight = header.offsetHeight
-    heroHeight = hero.offsetHeight;
-    beforeHeight = heroHeight + headerHeight + 20 +"px";
-
-document.documentElement.style.setProperty('--beforeHeight', beforeHeight);
 
 
 // change file source of image depending on width device
@@ -27,4 +20,4 @@ if( window.innerWidth <= 600) {
     imgCollec2.src = './médias/index/pendule au matelot.webp'
     imgCollec3.src = './médias/index/le bateau s_ils te mordent.webp'
     imgCollec4.src = './médias/index/Le musée d_armes et d_objets anciens.webp'
-  }
+  };

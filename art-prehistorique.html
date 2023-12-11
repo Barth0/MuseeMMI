@@ -4,36 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>l'Art Préhistorique</title>
-    <link rel="shortcut icon" href="./médias/logo-musee-aquitaine-header.webp">
-    <link rel="stylesheet" href="./reset.css">
-    <link rel="stylesheet" href="./art-prehistorique.css">
-    <link rel="stylesheet" href="./media-queries.css">
+    <link rel="shortcut icon" href="./médias/logo-musee-aquitaine-bdx-1.webp" />
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/art-prehistorique.css">
+    <link rel="stylesheet" href="./assets/css/media-queries art-prehistorique.css">
 </head>
 <body> 
-    <header>
-        <a href="./index.html" class="logo-header">
-            <img src="./médias/logo-musee-aquitaine-header.png" alt="logo musée d'Aquitaine">
-        </a> 
+    <header id="header">
+        <a href="#" class="logo-header">
+          <img
+            src="./médias/logo-musee-aquitaine-bdx-1.webp"
+            width="112"
+            height="113"
+            alt="logo musée d'Aquitaine"
+          />
+        </a>
         <nav class="navbar">
-            <ul>
-                <li class="link">
-                    <a href="https://www.musee-aquitaine-bordeaux.fr/fr/article/bienvenue-dans-la-boutique" class="link-nav">Expositions <span>></span></a> 
-                </li>
-                <li class="link">
-                    <a href="https://www.musee-aquitaine-bordeaux.fr/fr/histoire-du-musee-aquitaine" class="link-nav">Collections <span>></span></a>
-                </li>
-                <li class="link">
-                    <a href="#" class="link-nav">Actualités <span>></span></a>
-                </li>
-                <li class="link">
-                    <a href="#" class="link-nav">Infos pratiques <span>></span></a>
-                </li>
-                <li class="link">
-                    <a href="https://www.musee-aquitaine-bordeaux.fr/fr/histoire-du-musee-aquitaine" class="link-nav" >Boutique <span>></span> </a>
-                </li>
-            </ul>
+          <ul>
+            <li class="link">
+              <a
+                href="https://www.musee-aquitaine-bordeaux.fr/fr/article/bienvenue-dans-la-boutique"
+                class="link-nav"
+                >Expositions <span>></span></a
+              >
+            </li>
+            <li class="link">
+              <a
+                href="https://www.musee-aquitaine-bordeaux.fr/fr/histoire-du-musee-aquitaine"
+                class="link-nav"
+                >Collections <span>></span></a
+              >
+            </li>
+            <li class="link">
+              <a href="#" class="link-nav">Actualités <span>></span></a>
+            </li>
+            <li class="link">
+              <a href="#" class="link-nav">Infos pratiques <span>></span></a>
+            </li>
+            <li class="link">
+              <a
+                href="https://www.musee-aquitaine-bordeaux.fr/fr/histoire-du-musee-aquitaine"
+                class="link-nav"
+                >Boutique <span>></span>
+              </a>
+            </li>
+          </ul>
         </nav>
-    </header>
+      </header>
     <main>
         <section class="hero">
             <div class="container">
@@ -54,7 +71,7 @@
                         <p>Musée virtuel d'épigraphie</p>
                     </li>
                 </ul>
-                <a href="#"> 
+                <a href="#" class="info-button"> 
                     <button>Réserver un billet</button>
                 </a>
             </div>
@@ -64,23 +81,27 @@
         </section>
 
 
-        <section class="art_prehistorique ">
+        <section class="art-prehistorique ">
             <div class="access container">
-                <div class="access_info ">
+                <div class="access-info ">
                     <h2>Accessible pour tous</h2>
                     <p>Un parcours est proposé pour les visiteurs disposant d'un handicap. Deux créneaux “calmes” ont été mis en place chaque semaine pour les personnes hypersensibles ou avec des troubles du spectre de l'autisme : samedis (13h-14h30) et jeudis (16h30-17h30).</p>
                     <p class="meta">Cliquez sur "Les visites pour tous" <br> pour plus d'infos.</p>
-                    <button >Les visites pour tous</button>
+                    <a href="#">
+                      <button >Les visites pour tous</button>
+                    </a>
                 </div>
                 <img src="./médias/art préhistorique/img accessible page expo.webp" alt="rosace du musée d'aquitaine">
             </div>
         
 
-            <div class="expo_online container player-iframe">
+            <div class="expo-online container player-iframe">
                 <h2>Une exposition en ligne ?</h2>
                 <img src="./médias/art préhistorique/image-vidéo-api-ytb.webp" class="imgvideo" alt="image lancement vidéo expo">
                 <iframe width="560" height="315" data-src="https://www.youtube.com/embed/Ek4meLn4yL0?si=7dPKJOTauHaaseX-?autoplay=1" title="YouTube video player" frameborder="0" allow="autoplay" allowfullscreen></iframe>
-                <button>L'exposition en vidéo</button>
+                <a href="https://www.youtube.com/embed/Ek4meLn4yL0?si=7dPKJOTauHaaseX-?autoplay=1" target="_blank">
+                  <button>L'exposition en vidéo</button>
+                </a>
             </div>
         
 
@@ -88,62 +109,89 @@
                 <h2>Activités du musée</h2>
                 <p>Libérez votre imagination et créez des chefs-d'œuvre inspirés par nos expositions, ou bien suivez nos guides expérimentés qui rendent chaque visite inoubliable. Découvrez les histoires derrière chaque œuvre d'art et laissez-vous fasciner.</p>
                 <p class="meta">Cliquez sur 'Découvrir nos activités' pour plus d'infos.</p>
-                <button>Découvrir nos activités</button>
+                <a href="#">
+                  <button>Découvrir nos activités</button>
+                </a>
             </div>
         
 
             <div class="shop container">
-                <div class="shop_info">
+                <div class="shop-info">
                     <h2>La Boutique</h2>
                     <p>La boutique du musée offre une immersion au sein dans notre héritage préhistorique. Chaque achat est une porte ouverte vers une aventure personnelle à la découverte de nos origines. En repartant, les visiteurs emportent bien plus qu'un simple souvenir, c'est une part de l'histoire humaine, une connexion palpable avec nos ancêtres, un rappel de notre passé commun. </p>
                     <p class="meta">Cliquez sur 'Boutique art préhistorique' pour plus d'infos. </p>
-                    <button >Boutique art préhistorique</button>
+                    <a href="#">
+                      <button >Boutique art préhistorique</button>
+                    </a>
                 </div>
                 <img src="./médias/art préhistorique/image shop.webp" alt="boutique musée d'aquitaine">
             </div>
         
             <div class="partner container">
                 <h2>Partenaires et mécènes</h2>
-                <p>Nous bénéficions du soutien de la Direction régionale des Affaires culturelles de Nouvelle-Aquitaine, du musée d’Archéologie nationale - domaine national de Saint-Germain-en-Laye, du musée départemental d’Histoire et d’Archéologie (Abbaye d’Arthous, Hastingues) – du Conseil départemental des Landes, de l'école des Beaux-Arts de Bordeaux ; et de mécènes comme Cultura, Entrepose Échafaudages, Mécénart, Saint-Gobain, Unadev, Unikalo, Vinci Autoroutes. </p>
-                <div class="partner_logo">
+                <p>Nous bénéficions du soutien de la Direction régionale des Affaires culturelles de Nouvelle-Aquitaine, du musée d'Archéologie nationale - domaine national de Saint-Germain-en-Laye, du musée départemental d'Histoire et d'Archéologie (Abbaye d'Arthous, Hastingues) - du Conseil départemental des Landes, de l'école des Beaux-Arts de Bordeaux ; et de mécènes comme Cultura, Entrepose Échafaudages, Mécénart, Saint-Gobain, Unadev, Unikalo, Vinci Autoroutes. </p>
+                <div class="partner-logo">
                     <img src="./médias/art préhistorique/logo musée archéologie nationale.webp" alt="logo du musée d'archéologie nationale">
                     <img src="./médias/art préhistorique/logo les landes.webp" alt="logo département des landes">
                     <img src="./médias/art préhistorique/logo ebabx.webp" alt="logo ebabx">
                     <img src="./médias/art préhistorique/logo ministère culture.webp" alt="logo ministère de la culture">
                 </div>
                 
-                <p class="partner_meta">Cliquez sur 'Découvrir nos partenaires' <br> pour plus d'infos.</p>
-                <button>Découvrir nos partenaires</button>
+                <p class="partner-meta">Cliquez sur 'Découvrir nos partenaires' <br> pour plus d'infos.</p>
+                <a href="#">
+                  <button>Découvrir nos partenaires</button>
+                </a>
             </div>
         </section>
     </main>
     <footer>
-        <a href="./index.html" class="logo-footer">
-            <img src="./médias/logo musée d'aquitaine footer.webp"  alt="musée logo d'Aquitaine 2">
-        </a>
+        <div class="logo-footer">
+          <a href="./index.html">
+            <img
+              alt="musée logo d'Aquitaine 2" id="logo-footer"
+            />
+          </a>
+        </div>
         <article class="planning">
-            <h3>Horaires</h3>
-            <p>Du Mardi au Dimanche de 11h à 18h sauf les jours fériés</p>
+          <h3>Horaires</h3>
+          <p>Du Mardi au Dimanche de 11h à 18h sauf les jours fériés</p>
         </article>
         <article class="adress">
-            <h3>Adresse</h3>
-            <p>20 Cours Pasteur 33000 Bordeaux</p>
+          <h3>Adresse</h3>
+          <p>20 Cours Pasteur 33000 Bordeaux</p>
         </article>
         <article class="contact">
-            <h3>Contact</h3>
-            <a href="https://www.facebook.com/musee.aquitaine/"><img src="./médias/facebook.png" class="logofb" alt="logo facebook"></a>
-            <a href="https://twitter.com/MuseeAquitaine"><img src="./médias/Twitter.png" class="logotwitter" alt="logo twitter"></a>
-            <a href="https://www.instagram.com/musee_aquitaine/"><img src="./médias/insta.png" class="logoinsta" alt="logo instagram"></a>
+          <h3>Contact</h3>
+          <div>
+            <a href="https://www.facebook.com/musee.aquitaine/" class="logofb"
+              ><img src="./médias/facebook.png" alt="logo facebook"
+            /></a>
+            <a href="https://twitter.com/MuseeAquitaine" class="logotwitter"
+              ><img src="./médias/Twitter.png" alt="logo twitter"
+            /></a>
+            <a href="https://www.instagram.com/musee_aquitaine/" class="logoinsta"
+              ><img src="./médias/insta.png" alt="logo instagram"
+            /></a>
+          </div>
         </article>
         <nav>
-            <a href="https://www.musee-aquitaine-bordeaux.fr/fr/article/bienvenue-dans-la-boutique">Expositions</a> 
-            <a href="https://www.musee-aquitaine-bordeaux.fr/fr/histoire-du-musee-aquitaine">Collections</a> 
-            <a href="#">Actualités</a> 
-            <a href="#">Infos pratiques</a> 
-            <a href="https://www.musee-aquitaine-bordeaux.fr/fr/histoire-du-musee-aquitaine">Boutique</a> 
-            <a href="#">Mention légales</a> 
-            <a href="#">Politiques de confidentialités</a>
+          <a
+            href="https://www.musee-aquitaine-bordeaux.fr/fr/article/bienvenue-dans-la-boutique"
+            >Expositions</a
+          >
+          <a
+            href="https://www.musee-aquitaine-bordeaux.fr/fr/histoire-du-musee-aquitaine"
+            >Collections</a
+          >
+          <a href="#">Actualités</a>
+          <a href="#">Infos pratiques</a>
+          <a
+            href="https://www.musee-aquitaine-bordeaux.fr/fr/histoire-du-musee-aquitaine"
+            >Boutique</a
+          >
+          <a href="#">Mention légales</a>
+          <a href="#">Politiques de confidentialités</a>
         </nav>
-    </footer>
+      </footer>
     <script src="./assets/js/art-prehistorique.js"></script>
 </body>
