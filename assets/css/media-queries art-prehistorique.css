@@ -105,6 +105,11 @@
   }
   
   @media screen and (max-width: 600px) {
+
+    button {
+      height: 48px;
+    }
+
     .hero {
       margin-bottom: 120px;
     }
@@ -118,6 +123,10 @@
     font-size: calc(33px + 1.8vw);
     }
   
+    .art-prehistorique p {
+      max-width: unset;
+    }
+
     .info {
     padding-bottom: 80px;
     }
@@ -147,6 +156,29 @@
     .quote h2 {
         font-size: 18px;
     }
+
+
+    .access {
+      flex-direction: column-reverse;
+      width: 100%;
+      padding-top: 0;
+    }
+
+    .access-info {
+      width: 70%;
+      margin: 0 auto;
+  }
+
+
+    .access img {
+      width: 100%;
+      height: unset;
+      margin-left: 0;
+      padding-left: 0;
+      padding-bottom: 29px;
+      border-left: none;
+  }
+  
 
     footer {
       padding: 29px 2.1%;
