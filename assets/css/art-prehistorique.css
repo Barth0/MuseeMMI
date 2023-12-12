@@ -182,8 +182,6 @@ h1 {
     color: #FDF9F9;
     font-family: 'DM Serif Display', serif;
     font-size: calc(15px + 2vw);
-    font-style: normal;
-    font-weight: 400;
     line-height: normal;
 }
 
@@ -265,7 +263,7 @@ h1 {
     background: #241010;
 }
 
-.expo-online a {
+.expo-button {
     width: 36%;
     min-width: 250px;
     height: 60px;
@@ -353,6 +351,10 @@ h1 {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 29px;
+}
+.partner-logo img {
+    width: 203px;
+    height: 203px;
 }
 
 .partner-meta {
