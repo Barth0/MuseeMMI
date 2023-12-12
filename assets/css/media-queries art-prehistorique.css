@@ -125,6 +125,11 @@
     width: 90%;
     height: unset;
   }
+
+.shop img {
+  margin-left: 0;
+}
+
 }
 
 @media screen and (max-width: 600px) {
