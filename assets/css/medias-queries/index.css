@@ -48,28 +48,23 @@
     column-gap: unset;
     padding: 80px 2.1% 80px;
     display: grid;
-    grid-template-columns: 30% 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas:
-      "lo ho ad"
-      "vi co na";
+      "ho ad"
+      "co na";
+    justify-items: center;
   }
 
   .logo-footer {
-    grid-area: lo;
-    transform: translateY(50%);
-    height: 156px;
-    width: 142px;
-    padding-right: 14px;
-    border-right: 4px solid #d9d9d9;
+    display: none;
   }
 
   .logo-footer img {
-    width: 142px;
-    height: 156px;
+    display: none;
   }
   footer article {
-    max-width: 180px;
+    width: 180px;
   }
   .planning {
     transform: translateY(25%);
@@ -191,6 +186,10 @@
     font-size: 18px;
   }
 
+  .img-collection {
+    width: 100vw;
+  }
+
   .collection img {
     width: 100%;
     scale: unset;
@@ -207,9 +206,9 @@
     margin-bottom: 120px;
   }
 
-.hero::before {
-  background-image: url(/médias/index/photo-statue-image-header-accueil-mobile.webp);
-}
+  .hero::before {
+    background-image: url(/médias/index/photo-statue-image-header-accueil-mobile.webp);
+  }
 
   .hero a {
     width: 220px;
@@ -235,7 +234,7 @@
 
   footer {
     padding: 29px 2.1%;
-    grid-template-columns: 28% 0.9fr 0.9fr;
+    grid-template-columns: 1fr 1fr;
   }
 
   .logo-footer {
@@ -257,9 +256,6 @@
 
   footer p {
     margin-top: 14px;
-  }
-  .contact {
-    min-width: 155px;
   }
   .contact a {
     scale: 0.6;
@@ -285,10 +281,8 @@
 
   footer article,
   footer nav {
-    max-width: 122px;
-    margin-left: 14px;
+    max-width: 140px;
   }
-
   .contact {
     min-width: unset;
   }

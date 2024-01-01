@@ -103,7 +103,8 @@ header {
       rgba(0, 0, 0, 0.2) 0%,
       rgba(0, 0, 0, 0.2) 100%
     ),
-    url("/médias/index/photo-statue-image-header-accueil.webp"), rgb(0, 0, 0,0.75) 50%;
+    url("/médias/index/photo-statue-image-header-accueil.webp"),
+    rgb(0, 0, 0, 0.75) 50%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -388,9 +389,6 @@ footer {
 
 footer article {
   max-width: 270px;
-}
-.adress {
-  max-width: 220px;
 }
 
 footer h3 {

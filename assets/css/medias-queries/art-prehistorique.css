@@ -33,7 +33,6 @@
 }
 
 @media screen and (max-width: 995px) {
-
   .quote {
     width: 88%;
     padding: 80px 0;
@@ -43,25 +42,19 @@
     column-gap: unset;
     padding: 80px 2.1% 80px;
     display: grid;
-    grid-template-columns: 30% 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas:
-      "lo ho ad"
-      "vi co na";
+      "ho ad"
+      "co na";
   }
 
   .logo-footer {
-    grid-area: lo;
-    transform: translateY(50%);
-    height: 156px;
-    width: 142px;
-    padding-right: 14px;
-    border-right: 4px solid #d9d9d9;
+    display: none;
   }
 
   .logo-footer img {
-    width: 142px;
-    height: 156px;
+    display: none;
   }
 
   footer article {
@@ -126,14 +119,12 @@
     height: unset;
   }
 
-.shop img {
-  margin-left: 0;
-}
-
+  .shop img {
+    margin-left: 0;
+  }
 }
 
 @media screen and (max-width: 600px) {
-
   button {
     height: 48px;
   }
@@ -168,7 +159,7 @@
   .info ul {
     width: 80%;
     margin: 0 auto;
-    border-left: 2px solid #FDF9F9;
+    border-left: 2px solid #fdf9f9;
   }
 
   .info-button {
@@ -219,7 +210,6 @@
   .expo-online {
     width: 100%;
   }
-
 
   .expo-button {
     height: 48px;
