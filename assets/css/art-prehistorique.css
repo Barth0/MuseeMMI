@@ -404,10 +404,6 @@ footer article {
   max-width: 270px;
 }
 
-.adress {
-  max-width: 220px;
-}
-
 footer h3 {
   font-size: calc(14px + 1.8vw);
   font-style: normal;
