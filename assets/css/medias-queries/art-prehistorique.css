@@ -1,31 +1,4 @@
 /* *************************************MEDIA QUERIES********************************************* */
-
-@media screen and (min-width: 1800px) {
-  button {
-    font-size: 32px;
-  }
-
-  h1 {
-    font-size: 98px;
-  }
-
-  h2 {
-    font-size: 72px;
-  }
-
-  footer h3 {
-    font-size: 44.5px;
-  }
-
-  footer p {
-    font-size: 22px;
-  }
-
-  footer nav {
-    font-size: 22px;
-  }
-}
-
 @media screen and (max-width: 1200px) {
   footer article {
     max-width: 220px;
@@ -134,18 +107,10 @@
     margin-bottom: 120px;
   }
 
-  /* .hero::before {
-    background-image: url(/médias/index/photo-statue-image-header-accueil-mobile.webp);
-  } */
-
   h1 {
     padding-bottom: 80px;
     font-size: calc(33px + 1.8vw);
   }
-
-  /* .art-prehistorique p {
-    max-width: 80vw;
-  } */
 
   .info {
     padding-bottom: 80px;
@@ -172,7 +137,7 @@
     width: 92%;
   }
 
-  .quote h2 {
+  .quote p {
     font-size: 18px;
   }
 
@@ -283,7 +248,9 @@
     width: 77px;
     height: 77px;
   }
-
+  .partner .partner-meta {
+    font-size: 14px;
+  }
   .partner-button {
     margin: 0 auto;
     height: 48px;

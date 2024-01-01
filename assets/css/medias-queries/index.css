@@ -1,38 +1,5 @@
 /* *************************************MEDIA QUERIES********************************************* */
 
-@media screen and (min-width: 1800px) {
-  button {
-    font-size: 32px;
-  }
-  h1 {
-    font-size: 98px;
-  }
-  .exposition h2 {
-    font-size: 72px;
-  }
-  .exposition a {
-    font-size: 38px;
-  }
-  .collection h2 {
-    font-size: 72px;
-  }
-  .head-collection {
-    font-size: 38px;
-  }
-  .meta {
-    font-size: 24px;
-  }
-  footer h3 {
-    font-size: 44.5px;
-  }
-  footer p {
-    font-size: 22px;
-  }
-  footer nav {
-    font-size: 22px;
-  }
-}
-
 @media screen and (max-width: 1200px) {
   footer article {
     max-width: 220px;
@@ -118,7 +85,8 @@
   }
 
   .exposition h2 {
-    padding-bottom: 80px;
+    padding-top: 80px;
+    padding-bottom: 29px;
     margin-bottom: 0;
   }
 
@@ -183,7 +151,7 @@
   }
 
   .meta {
-    font-size: 18px;
+    font-size: 14px;
   }
 
   .img-collection {
@@ -228,7 +196,7 @@
   }
 
   .button-collec {
-    width: 72vw;
+    width: 75vw;
     height: 56px;
   }
 
@@ -253,14 +221,23 @@
 }
 
 @media screen and (max-width: 425px) {
+  .exposition button {
+    border-radius: 12px;
+  }
+
   .head-collection {
     margin-left: 8px;
+  }
+
+  .button-collec button {
+    border-radius: 12px;
   }
 
   footer article,
   footer nav {
     max-width: 140px;
   }
+
   .contact {
     min-width: unset;
   }
