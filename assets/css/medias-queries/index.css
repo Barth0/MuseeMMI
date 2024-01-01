@@ -237,18 +237,6 @@
     grid-template-columns: 1fr 1fr;
   }
 
-  .logo-footer {
-    width: 82px;
-    height: 90px;
-    border-right: 2px solid #d9d9d9;
-    transform: translateY(120%);
-  }
-
-  .logo-footer img {
-    width: 82px;
-    height: 90px;
-  }
-
   footer article {
     max-height: 160px;
     max-width: 160px;
@@ -267,16 +255,6 @@
 @media screen and (max-width: 425px) {
   .head-collection {
     margin-left: 8px;
-  }
-  .logo-footer {
-    width: 68px;
-    height: 75px;
-    transform: translateY(140%);
-  }
-
-  .logo-footer img {
-    width: 68px;
-    height: 75px;
   }
 
   footer article,
