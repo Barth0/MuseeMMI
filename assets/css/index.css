@@ -50,7 +50,7 @@ a {
 header {
   position: relative;
   margin-left: 4.2%;
-  margin-top: 29px;
+  margin-top: 9px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -67,7 +67,7 @@ header {
 
 .link-nav {
   color: #fdf9f9;
-  font-size: calc(12px + 0.58vw);
+  font-size: calc(13px + 0.3vw);
   font-weight: 600;
   line-height: normal;
 }
